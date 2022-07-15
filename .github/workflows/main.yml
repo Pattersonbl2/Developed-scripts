@@ -5,4 +5,7 @@ on:
     
 jobs:
   testing:
-    uses: Pattersonbl2/Jumpcloud/.github/workflows/main.yml@main 
+    runs-on: ubuntu-lastest
+    steps: 
+      - uses: Pattersonbl2/Jumpcloud/.github/workflows/main.yml@main 
+
