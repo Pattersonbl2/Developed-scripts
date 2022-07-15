@@ -5,7 +5,7 @@ on:
     
 jobs:
   testing:
-    runs-on: ubuntu-lastest
-    steps: 
-      - uses: Pattersonbl2/Jumpcloud/.github/workflows/main.yml@main 
+    if: github.event.schedule != '5 0 * * *'
+    uses: Pattersonbl2/Jumpcloud/.github/workflows/main.yml@main 
+    
 
