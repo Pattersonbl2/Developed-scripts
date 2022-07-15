@@ -4,4 +4,4 @@ on:
     
 jobs:
   testing:
-    uses: Pattersonbl2/jumpcloud/.github/workflows/main.yml@main 
+    uses: Pattersonbl2/Jumpcloud/.github/workflows/main.yml@main 
