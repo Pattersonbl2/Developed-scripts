@@ -17,7 +17,7 @@ def ssh_connect(ssh,ip_address,retries):
     if retries > 3:
         return False
     privkey = paramiko.RSAKey.from_private_key_file(
-        ***REMOVED***
+        ''
     )
     interval = 5 
     try: 
